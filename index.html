@@ -16,17 +16,113 @@
     <title>Frontend Mentor | News homepage</title>
   </head>
   <body>
-    Home New Popular Trending Categories The Bright Future of Web 3.0? We dive
-    into the next evolution of the web that claims to put the power of the
-    platforms back into the hands of the people. But is it really fulfilling its
-    promise? Read more New Hydrogen VS Electric Cars Will hydrogen-fueled cars
-    ever catch up to EVs? The Downsides of AI Artistry What are the possible
-    adverse effects of on-demand AI image generation? Is VC Funding Drying Up?
-    Private funding by VC firms is down 50% YOY. We take a look at what that
-    means. 01 Reviving Retro PCs What happens when old PCs are given modern
-    upgrades? 02 Top 10 Laptops of 2022 Our best picks for various needs and
-    budgets. 03 The Growth of Gaming How the pandemic has sparked fresh
-    opportunities.
+    <div class="container">
+      <!-- HEADER -->
+      <header class="header">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" alt="logo" />
+        </div>
+        <ul class="menu">
+          <li class="menu-el"><a href="#">Home</a></li>
+          <li class="menu-el"><a href="#">New</a></li>
+          <li class="menu-el"><a href="#">Popular</a></li>
+          <li class="menu-el"><a href="#">Trending</a></li>
+          <li class="menu-el"><a href="#">Categories</a></li>
+        </ul>
+        <button class="btn-mobile-nav">
+          <img
+            src="./assets/images/icon-menu.svg"
+            class="icon-mobile-nav"
+            alt="button-open"
+          />
+          <img
+            src="./assets/images/icon-menu-close.svg"
+            class="icon-mobile-nav"
+            alt="button-close"
+          />
+        </button>
+      </header>
+
+      <section class="hero">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="weird image" />
+        <h1 class="hero-title">The Bright Future of Web 3.0?</h1>
+        <p class="hero-description">
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <button class="btn">Read more</button>
+      </section>
+
+      <section class="new">
+        <h1 class="new-title">New</h1>
+        <div class="new__article">
+          <h2 class="new__article-title">Hydrogen VS Electric Cars</h2>
+          <p class="new__article-description">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+        </div>
+        <div class="new__article">
+          <h2 class="new__article-title">The Downsides of AI Artistry</h2>
+          <p class="new__article-description">
+            WWhat are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </div>
+        <div class="new__article">
+          <h2 class="new__article-title">Is VC Funding Drying Up?</h2>
+          <p class="new__article-description">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+      </section>
+
+      <section class="popular">
+        <div class="popular__article">
+          <img
+            class="popular__article-img"
+            src="./assets/images/image-retro-pcs.jpg"
+            alt="old computer"
+          />
+          <div class="popular__article-content">
+            <p class="popular__article-num">01</p>
+            <h2 class="popular__article-title">Reviving Retro PCs</h2>
+            <p class="popular__article-description">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="popular__article">
+          <img
+            class="popular__article-img"
+            src="./assets/images/image-top-laptops.jpg"
+            alt="old computer"
+          />
+          <div class="popular__article-content">
+            <p class="popular__article-num">02</p>
+            <h2 class="popular__article-title">Top 10 Laptops of 2022</h2>
+            <p class="popular__article-description">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="popular__article">
+          <img
+            class="popular__article-img"
+            src="./assets/images/image-gaming-growth.jpg"
+            alt="old computer"
+          />
+          <div class="popular__article-content">
+            <p class="popular__article-num">03</p>
+            <h2 class="popular__article-title">The Growth of Gaming</h2>
+            <p class="popular__article-description">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
 
     <script src="app.js"></script>
   </body>
