@@ -30,20 +30,20 @@
         </div>
         <ul class="menu">
           <li class="menu-el"><a href="#">Home</a></li>
-          <li class="menu-el"><a href="#">New</a></li>
-          <li class="menu-el"><a href="#">Popular</a></li>
+          <li class="menu-el"><a href="#new">New</a></li>
+          <li class="menu-el"><a href="#popular">Popular</a></li>
           <li class="menu-el"><a href="#">Trending</a></li>
           <li class="menu-el"><a href="#">Categories</a></li>
         </ul>
         <button class="btn-mobile-nav">
           <img
             src="./assets/images/icon-menu.svg"
-            class="icon-mobile-nav"
+            class="icon-mobile-nav icon-closed show"
             alt="button-open"
           />
           <img
             src="./assets/images/icon-menu-close.svg"
-            class="icon-mobile-nav"
+            class="icon-mobile-nav icon-opened"
             alt="button-close"
           />
         </button>
@@ -60,7 +60,7 @@
         <button class="btn">Read more</button>
       </section>
 
-      <section class="new">
+      <section class="new" id="new">
         <h1 class="new-title">New</h1>
         <div class="new__article">
           <h2 class="new__article-title">Hydrogen VS Electric Cars</h2>
@@ -71,7 +71,7 @@
         <div class="new__article">
           <h2 class="new__article-title">The Downsides of AI Artistry</h2>
           <p class="new__article-description">
-            WWhat are the possible adverse effects of on-demand AI image
+            What are the possible adverse effects of on-demand AI image
             generation?
           </p>
         </div>
@@ -84,7 +84,7 @@
         </div>
       </section>
 
-      <section class="popular">
+      <section class="popular" id="popular">
         <div class="popular__article">
           <img
             class="popular__article-img"
@@ -129,6 +129,8 @@
         </div>
       </section>
     </div>
+
+    <div class="overlay"></div>
 
     <script src="app.js"></script>
   </body>
