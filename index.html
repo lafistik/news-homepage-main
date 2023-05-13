@@ -50,7 +50,13 @@
       </header>
 
       <section class="hero">
-        <img src="./assets/images/image-web-3-mobile.jpg" alt="weird image" />
+        <picture>
+          <source
+            media="(min-width: 900px)"
+            srcset="assets\images\image-web-3-desktop.jpg"
+          />
+          <img src="./assets/images/image-web-3-mobile.jpg" alt="weird image" />
+        </picture>
         <h1 class="hero-title">The Bright Future of Web 3.0?</h1>
         <p class="hero-description">
           We dive into the next evolution of the web that claims to put the
