@@ -278,7 +278,7 @@ img {
 @media screen and (min-width: 56.25em) {
   .container {
     max-width: 69.375rem;
-    margin: 0 1.5rem;
+    margin: 1.5rem;
 
     display: grid;
     grid-template-columns: 1fr 350px;
